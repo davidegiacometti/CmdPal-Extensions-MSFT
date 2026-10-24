@@ -1,0 +1,32 @@
+{
+  "$schema": "../../../.github/schemas/extension.schema.json",
+  "id": "davidegiacometti.snippets",
+  "title": "Snippets",
+  "shortDescription": "Quickly type saved text snippets into any active window.",
+  "description": "Create, organize, and manage reusable text snippets for fast typing.\nAutomatically type them into an active window, saving time and reducing repetitive typing.",
+  "author": {
+    "name": "davidegiacometti",
+    "url": "https://github.com/davidegiacometti"
+  },
+  "icon": "icon.png",
+  "homepage": "https://github.com/davidegiacometti/CmdPal-Extensions",
+  "tags": [
+    "text snippets",
+    "snippets",
+    "auto-type"
+  ],
+  "categories": [
+    "developer-tools",
+    "productivity"
+  ],
+  "installSources": [
+    {
+      "type": "winget",
+      "id": "davidegiacometti.SnippetsForCmdPal"
+    },
+    {
+      "type": "msstore",
+      "id": "9P643KL240CB"
+    }
+  ]
+}
